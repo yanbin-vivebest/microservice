@@ -23,3 +23,12 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
+  data:
+    mongodb:
+      ##数据库名称
+      #database: test
+      #host: 127.0.0.1
+      #password: :123456
+      #port: 27017
+      #username: yabby
+      uri: mongodb://yabby:123456@127.0.0.1:27017/test
